@@ -4,4 +4,5 @@ title:  Learning JavaScript
 categories: javascript
 ---
 
-Stuff in the body!!!
+Stuff in the body!!! <br>
+<img src="http://media.giphy.com/media/Vqvr9BGv1vhDi/giphy.gif">
