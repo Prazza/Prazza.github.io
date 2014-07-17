@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Time Travelling!!!
+title:  Time Traveling!!!
 categories: javascript
 ---
 

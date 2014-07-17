@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Travelling to the Future
+title:  Traveling to the Future
 categories: javascript
 ---
 
