@@ -1,7 +1,8 @@
 # Site settings
-title: Mark's awesome title
+title: Mark's Time Traveling Blog!
 email: markgriffin04@gmail.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Long story short... the delorean is mine!!"
+# description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 baseurl: ""
 url: "http://www.hungryhungrytexans.com"
 twitter_username: ScrewTwitter
