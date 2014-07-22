@@ -1,0 +1,19 @@
+---
+layout: piglatin
+---
+
+<header class="post-header">
+    <h1>{{ page.title }}</h1>
+  </header>
+
+  <article class="post-content">
+  
+  {% assign cont = content | downcase %}
+  {% assign_wordlist = cont | split:" " %}
+  {% assign pLatin = " " %}
+  {% for word in word_list %}
+  	{% pLatin += word[1:0] + word[0] + 'ay' %}
+  {% endfor %}
+  {pLatin}
+
+  </article>
