@@ -1,8 +1,26 @@
 ---
 layout: post
-title:  Learning JavaScript
+title:  Jekyll Code
 categories: javascript
 ---
 
-Stuff in the body!!! <br>
+<code class="code">site.time</code> :: {{site.time}}
+<ul>Display site time</ul>
+
+<code class="code">page.title | size</code> :: {{page.title | size}}
+<ul>Count the length of letters in title</ul>
+
+<code class="code">page.content | size</code> :: {{page.content | size}}
+<ul>Counts all the leteres in the file</ul>
+
+
+
+<code>% assign name = "Mark" % ;  Hello {name}</code>
+<ul>assign and call a variable</ul>
+
+{% assign name = "Mark" %}
+
+Hello {{name}}
+
+<br>
 <!-- <img src="/photos/austin-texas.png"> -->
