@@ -9,11 +9,13 @@ layout: default
   <article class="post-content">
   
   {% assign cont = content | downcase %}
-  {% assign_wordlist = cont | split:" " %}
-  {% assign pLatin = " " %}
-  {% for word in word_list %}
-  	{% pLatin += word[1:0] + word[0] + 'ay' %}
+  {% assign wordlist = cont | split:" " %}
+  {% for i in wordlist %}
+    {{i + " "}}
   {% endfor %}
-  {pLatin}
+
+  
 
   </article>
+
+  
